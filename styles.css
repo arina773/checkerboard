@@ -1,0 +1,47 @@
+body {
+    margin: 15px;
+}
+
+#board {
+    border: solid black;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board>* {
+    flex: 0 0 12.5%;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: black;
+}
+
+.light.square {
+    background-color: #FFDA60;
+}
+
+.dark.square {
+    background-color: #5A3300;
+}
+
+.piece {
+    position: relative;
+    left: 5.5px;
+    top: 5.5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+}
+
+.black.piece {
+    background-color: #222222;
+    border: solid #000000 2px;
+}
+
+.red.piece {
+    background-color: #850000;
+    border: solid #500000 2px;
+}
